@@ -11,12 +11,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             line-height: 1.6;
-            background-color: #f4f6f8;
+            background-color: #e3edf7;
             color: #333;
         }
 
         h1, h2, h3 {
-            color: #2c3e50;
+            color: #0e9986;
         }
 
         section {
@@ -60,7 +60,7 @@
 
         .hero button {
             padding: 12px 20px;
-            background-color: #1976d2;
+            background-color: #1d8548;
             color: white;
             border: none;
             border-radius: 5px;
@@ -105,7 +105,7 @@
 
         /* ===== FOOTER ===== */
         footer {
-            background-color: #1f2933;
+            background-color: #116969;
             color: white;
             text-align: center;
             padding: 20px;
@@ -213,4 +213,52 @@
         <li>Share it with classmates if needed</li>
     </ol>
 </section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-question" onclick="toggleFAQ(this)">
+        Do I need to be good with computers?
+    </div>
+    <div class="faq-answer">
+        No. This guide is made for complete beginners.
+    </div>
+
+    <div class="faq-question" onclick="toggleFAQ(this)">
+        What if I make a mistake?
+    </div>
+    <div class="faq-answer">
+        Mistakes are normal and part of learning.
+    </div>
+
+    <div class="faq-question" onclick="toggleFAQ(this)">
+        Can I use this guide on my phone?
+    </div>
+    <div class="faq-answer">
+        Yes, but using a computer is recommended.
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2026 Tech Student Survival Guide</p>
+    <p>You’ve got this 💻 Learning tech takes time.</p>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleFAQ(element) {
+        const answer = element.nextElementSibling;
+        answer.style.display = answer.style.display === "block" ? "none" : "block";
+    }
+</script>
+
+</body>
+</html>
+
 
