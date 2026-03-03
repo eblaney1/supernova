@@ -85,6 +85,14 @@
             margin-left: 20px;
         }
 
+        .topic img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
         /* ===== FAQ ===== */
         .faq {
             background-color: #ffffff;
@@ -136,6 +144,7 @@
 <section class="hero">
     <h1>Welcome to the Tech Student Survival Guide</h1>
     <p>Simple, step-by-step help to make technology less scary and more useful.</p>
+    <img src="https://images.unsplash.com/photo-1581091870621-0f9d7d0e5a91?fit=crop&w=1000&q=80" alt="Student with laptop" />
     <button onclick="scrollToSection('overview')">Get Started</button>
 </section>
 
@@ -146,6 +155,7 @@
         This website is designed for students who are new to technology or want to improve their basic digital skills.
         Each topic is explained using simple language and clear steps.
     </p>
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?fit=crop&w=1000&q=80" alt="College student studying with laptop" />
     <ul>
         <li>Using email professionally</li>
         <li>Managing files on your computer</li>
@@ -156,10 +166,10 @@
 </section>
 
 <!-- ===== KEY TOPICS ===== -->
-
 <section id="email" class="topic">
     <h2>Using Email Professionally</h2>
     <p>Email is one of the main ways students communicate with teachers and classmates.</p>
+    <img src="https://images.unsplash.com/photo-1581091215361-2b6d6c9c1cf8?fit=crop&w=1000&q=80" alt="Student sending email on laptop" />
     <ol>
         <li>Use a clear subject line</li>
         <li>Start with a polite greeting</li>
@@ -172,6 +182,7 @@
 <section id="files" class="topic">
     <h2>Managing Files</h2>
     <p>Keeping your files organized helps you save time and reduce stress.</p>
+    <img src="https://images.unsplash.com/photo-1581091012184-3f4f0bb76f95?fit=crop&w=1000&q=80" alt="Organized digital files on screen" />
     <ul>
         <li>Create folders for each class</li>
         <li>Name files clearly</li>
@@ -185,6 +196,7 @@
     <p>
         Cloud storage lets you save files online so you can access them anywhere.
     </p>
+    <img src="https://images.unsplash.com/photo-1573164574399-df6e9b77d7fb?fit=crop&w=1000&q=80" alt="Cloud storage concept" />
     <ul>
         <li>Google Drive</li>
         <li>OneDrive</li>
@@ -195,6 +207,7 @@
 
 <section id="safety" class="topic">
     <h2>Staying Safe Online</h2>
+    <img src="https://images.unsplash.com/photo-1591696331117-6b618b7b013c?fit=crop&w=1000&q=80" alt="Online safety concept" />
     <ul>
         <li>Create strong passwords</li>
         <li>Do not click suspicious links</li>
@@ -206,6 +219,7 @@
 <section id="docs" class="topic">
     <h2>Using Google Docs</h2>
     <p>Google Docs is a free tool for writing assignments and working with others.</p>
+    <img src="https://images.unsplash.com/photo-1581091215362-21c53c9a1cf8?fit=crop&w=1000&q=80" alt="Collaborating on Google Docs" />
     <ol>
         <li>Go to Google Docs</li>
         <li>Click "Blank document"</li>
@@ -260,5 +274,6 @@
 
 </body>
 </html>
+
 
 
